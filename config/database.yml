@@ -20,8 +20,8 @@ test:
 
 production: 
   adapter: mysql2 
-  database: pacsupg_production
-  username: pacsupg_user
+  database: portrait_production
+  username: portrait_user
   password: 3ujUbe0dK6fKoZiNt
   encoding: utf8
   reconnect: false
