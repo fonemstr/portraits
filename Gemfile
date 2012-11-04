@@ -28,8 +28,7 @@ end
 gem 'jquery-rails'
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-
-
+gem 'less-rails'
 gem 'spree', :github => 'spree/spree'
 
 # To use ActiveModel has_secure_password

@@ -109,6 +109,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.4.0)
+    commonjs (0.2.6)
     deface (0.9.1)
       nokogiri (~> 1.5.0)
       rails (~> 3.1)
@@ -131,6 +132,11 @@ GEM
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
       railties (>= 3.0.0)
+    less (2.2.2)
+      commonjs (~> 0.2.6)
+    less-rails (2.2.6)
+      actionpack (>= 3.1)
+      less (~> 2.2.0)
     libv8 (3.3.10.4)
     mail (2.4.4)
       i18n (>= 0.4.0)
@@ -219,6 +225,7 @@ DEPENDENCIES
   execjs
   jquery-rails
   json
+  less-rails
   mysql2
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)
