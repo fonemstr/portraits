@@ -16,7 +16,11 @@ set :branch, 'master'
 set :deploy_to, "/home/portrait/rails/#{application}"
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none` 
 
-set :scm, :subversion
+set :bundle_dir, fetch(:shared_path)+"/bundle"   
+set :bundle_flags, "--deployment --quiet"
+
+set :use_sudo, false
+set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
 role :web, "portraitsinfabric.com"                          # Your HTTP server, Apache/etc

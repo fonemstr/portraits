@@ -18,8 +18,13 @@ test:
   pool: 5
   timeout: 5000
 
-production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+production: 
+  adapter: mysql2 
+  database: pacsupg_production
+  username: pacsupg_user
+  password: 3ujUbe0dK6fKoZiNt
+  encoding: utf8
+  reconnect: false
   pool: 5
-  timeout: 5000
+  socket: /tmp/mysql.sock 
+
