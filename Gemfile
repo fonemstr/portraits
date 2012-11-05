@@ -30,6 +30,7 @@ gem 'jquery-rails'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'less-rails'
 gem 'spree', :github => 'spree/spree'
+gem 'spree_auth_devise', :github => 'fonemstr/spree_auth_devise'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

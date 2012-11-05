@@ -42,3 +42,24 @@ role :db,  "portraitsinfabric.com", :primary => true # This is where Rails migra
 #     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
 #   end
 # end
+
+namespace :deploy do
+  namespace :assets do
+    task :precompile, :roles => :web, :except => { :no_release => true } do
+        logger.info "Doing asset precompilation locally...."
+        run_locally("bundle exec rake assets:clean RAILS_ENV=development && bundle exec rake assets:precompile RAILS_ENV=development")
+        run_locally "cd public && tar -jcf assets.tar.bz2 assets"
+        top.upload "public/assets.tar.bz2", "#{shared_path}", :via => :scp
+        run "cd #{shared_path} && tar -jxf assets.tar.bz2 && rm assets.tar.bz2"
+        run_locally "rm public/assets.tar.bz2"
+        run_locally("bundle exec rake assets:clean RAILS_ENV=development")
+    end
+
+    task :symlink, :roles => :web do
+      run ("rm -rf #{latest_release}/public/assets &&
+            mkdir -p #{latest_release}/public &&
+            mkdir -p #{shared_path}/assets &&
+            ln -s #{shared_path}/assets #{latest_release}/public/assets")
+    end
+  end
+end
