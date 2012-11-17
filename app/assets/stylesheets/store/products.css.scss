@@ -1,0 +1,224 @@
+@import "store/variables";
+
+/*--------------------------------------*/
+  /* Products
+  /*--------------------------------------*/
+
+
+  [data-hook="product_show"] {
+    margin-top: 30px;
+    h6 {
+      font-size: $product_detail_title_font_size;
+    }
+  }
+
+  .product-section-title {
+    text-transform: uppercase;
+    margin: 15px 0 5px 0;
+  }
+
+  .add-to-cart {
+    margin-top: 15px;
+
+    input[type="number"] {
+      margin-right: 3px;
+      margin-bottom: 0;
+      width: 60px;
+      vertical-align: middle;
+      padding: 5px;
+      height: 25px;
+    }
+  }
+
+  span.price {
+    font-weight: bold;
+    color: $product_price_text_color;
+
+    &.selling {
+      font-size: $product_detail_price_font_size;
+    }
+    &.diff {
+      font-weight: bold;
+    }  
+  }
+
+  .taxon-title {
+    font-size: $product_list_header_font_size;
+  }
+
+  .search-results-title {
+    font-size: $product_list_search_font_size;
+  }
+
+  ul#products {
+    margin: 0 0 9px 0;
+
+    &:after {
+      content: " ";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0;
+    }
+
+    li {
+      text-align: center;
+      font-weight: bold;
+      margin-left: 0;
+      margin-bottom: 20px;
+      margin-right: 20px;
+
+      a {
+        display: block;
+
+        &.info {
+          height: 35px;
+          margin-top: 5px;
+          font-size: $product_list_name_font_size;
+          color: $product_link_text_color;
+          border-bottom: 1px solid lighten($body_text_color, 60);
+          overflow: hidden;
+        }
+      }
+
+      .product-image {
+        border: none;
+        padding: 5px;        
+        min-height: 110px;
+        background-color: $product_background_color;
+
+        &:hover {
+          border-color: $link_text_color;
+        }
+
+      }
+
+      .price {
+        color: $product_price_text_color;
+        font-size: $product_list_price_font_size;
+        padding-top: 5px;
+        display: block;
+      }
+    }
+  }
+
+  .subtaxon-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    a {
+      color: $link_text_color;
+    }    
+  }
+
+  .search-results-title {
+    text-transform: uppercase;
+    border-bottom: 1px solid lighten($body_text_color, 60);
+    margin-bottom: 10px;
+  }
+
+  #sidebar_products_search {
+    .navigation {
+      margin-bottom: 15px;
+    }
+
+    .filter-title {
+      display: block;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-bottom: 1px solid #ededed;
+      margin-bottom: 5px;
+      color: $link_text_color;
+      font-size: $base_font_size + 2;
+      line-height: 24px;
+    }
+  }
+
+  .taxon {
+    overflow: hidden;
+  }
+
+  #product-images {
+    #main-image {
+      text-align: center;
+      border: none;
+      background-color: $product_background_color;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+    }
+    #product-thumbnails {
+      li {
+        background-color: $product_background_color;
+      }
+    }
+  }
+
+  #product-description {
+    .product-title {
+      border-bottom: 1px solid lighten($body_text_color, 60);
+      margin-bottom: 15px;
+      color: $product_title_text_color;
+      font-size: $product_detail_name_font_size;
+    }
+
+    [data-hook="product-description"] {
+      font-size: $product_detail_description_font_size;
+      color: $product_body_text_color;
+    }
+  }
+
+  #product-thumbnails {
+    margin-top: 10px;
+
+    li {
+      margin-right: 6px;
+      border: 1px solid lighten($body_text_color, 60);
+
+      img {
+        padding: 5px;
+      }
+
+      &:hover, &.selected {
+        border-color: $link_text_color;
+      }
+    }
+  }
+
+
+  #product-variants {
+    ul {
+      margin: 0;
+      li {
+        list-style: none;
+        padding: 5px;
+      }
+    }
+    label {
+      display: inline;
+    }
+    input[type="radio"] {
+      margin: 0;
+    }
+  }
+
+  #cart-form {
+    #inside-product-cart-form:after {
+      content: " ";
+      display: block;
+      clear: both;
+      visibility: hidden;
+      line-height: 0;
+      height: 0;
+    }
+  }
+
+
+  ul, ol {
+    &.inline {
+      li {
+        display: inline-block;
+      }
+    }
+  }

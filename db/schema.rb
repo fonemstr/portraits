@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121104182741) do
+ActiveRecord::Schema.define(:version => 20121117200049) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -198,8 +198,10 @@ ActiveRecord::Schema.define(:version => 20121104182741) do
     t.string   "name"
     t.string   "presentation"
     t.integer  "option_type_id"
-    t.datetime "created_at",     :null => false
-    t.datetime "updated_at",     :null => false
+    t.datetime "created_at",                                                    :null => false
+    t.datetime "updated_at",                                                    :null => false
+    t.decimal  "surcharge",      :precision => 8, :scale => 2, :default => 0.0, :null => false
+    t.string   "image"
   end
 
   create_table "spree_option_values_variants", :id => false, :force => true do |t|
@@ -531,12 +533,14 @@ ActiveRecord::Schema.define(:version => 20121104182741) do
     t.string   "authentication_token"
     t.string   "unlock_token"
     t.datetime "locked_at"
-    t.datetime "remember_created_at"
     t.datetime "reset_password_sent_at"
     t.datetime "created_at",                                           :null => false
     t.datetime "updated_at",                                           :null => false
     t.string   "spree_api_key",          :limit => 48
+    t.datetime "remember_created_at"
   end
+
+  add_index "spree_users", ["email"], :name => "email_idx_unique", :unique => true
 
   create_table "spree_variants", :force => true do |t|
     t.string   "sku",                                         :default => "",    :null => false

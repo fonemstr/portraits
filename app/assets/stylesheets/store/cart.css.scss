@@ -1,0 +1,54 @@
+/*--------------------------------------*/
+/* Cart
+/*--------------------------------------*/
+
+  table#cart-detail {
+    width: 100%;
+    tbody#line_items {
+      tr {
+
+        td[data-hook="cart_item_price"], td[data-hook="cart_item_total"] {
+          @extend span.price;
+          @extend span.price.selling;
+        }
+        td[data-hook="cart_item_quantity"] {
+          .line_item_quantity {
+            width: 40px;
+          }
+        }
+        td[data-hook="cart_item_delete"] {
+          .delete {
+            display: block;
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  div[data-hook="inside_cart_form"] {
+    .links {
+      margin-top: 15px;
+      text-align: right;
+    }
+    
+    #subtotal {
+      text-align: right;
+      text-transform: uppercase;
+      margin-top: 15px;
+
+      span.order-total {
+        @extend span.price;
+      }
+    } 
+  }
+
+  table thead {
+    background-color: #D9D9DB;
+    text-transform: uppercase;
+  }
+
+  #empty-cart {
+    margin-top: -75px !important;
+    float: left !important;
+  }

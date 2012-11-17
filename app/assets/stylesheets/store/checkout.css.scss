@@ -1,0 +1,219 @@
+  @import "store/variables";
+
+  /*--------------------------------------*/
+  /* Checkout
+  /*--------------------------------------*/
+  
+  .progress-steps {
+    list-style: decimal inside;
+    overflow: auto;
+
+    li {
+      float: left;
+      margin-right: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 5px 20px;
+      color: lighten($body_text_color, 20);
+
+      &.current-first, &.current {
+        background-color: $link_text_color;
+        color: $layout_background_color;
+      }
+
+      &.completed-first, &.completed {
+        background-color: lighten($body_text_color, 60);
+        color: $layout_background_color;
+
+        a {
+          color: $layout_background_color;
+        }
+
+        &:hover {
+          background-color: $link_text_color;
+          color: $layout_background_color;
+
+          a {
+            color: $layout_background_color;
+
+            &:hover {
+              color: $layout_background_color !important;              
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #checkout-summary {
+    text-align: center;
+    border: 1px solid lighten($body_text_color, 60);
+    margin-top: 23px;
+    /*margin-left: 0;*/
+
+    h3 {
+      text-transform: uppercase;
+      font-size: $base_font_size + 2;
+      border-bottom: 1px solid lighten($body_text_color, 60);
+    }
+
+    table {
+      width: 100%;
+      margin-bottom: 0;
+
+      tr[data-hook="item_total"] {
+        td:last-child {
+          strong {
+            @extend span.price;
+          }
+        }
+      }
+
+      tr[data-hook="order_total"] {
+        border-bottom: none;
+      };
+
+      #summary-order-total {
+        @extend span.price;
+        font-size: $base_font_size + 2;
+      }      
+    }
+  }
+
+  #billing, #shipping, #shipping_method, 
+  #payment, #order_details, #order_summary {
+    border: 1px solid lighten($body_text_color, 60);
+    padding: 10px;
+
+    legend {
+      width: auto;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: $base_font_size + 2;
+      color: $link_text_color;
+      padding: 5px;
+      margin-left: 15px;
+      border: none;
+    }
+    fieldset {
+      margin: 0;
+    }
+    label {
+      display: inline;
+    }
+
+  }
+
+  #order_details, #order_summary {
+    padding: 0;
+/*
+    div:last-child {
+      margin-left: -1px;
+    }*/
+
+    .payment-info {
+      .cc-type {
+        img {
+          vertical-align: middle;
+        }
+      }
+    }
+
+    table {
+      margin-bottom: 0;
+      th {
+        text-align: center;
+      }
+    }
+
+    td.price, td.total {
+      span {
+        @extend span.price;
+      }
+    }
+
+    table tfoot { 
+      color: lighten($body_text_color, 20);
+
+      tr {
+        border: none;
+        td {
+          text-align: right;
+        }
+      }
+
+
+      &#order-total {
+        text-transform: uppercase;
+        font-size: $base_font_size + 4;
+        color: $body_text_color;
+
+        tr { 
+          border-top: 1px solid lighten($body_text_color, 60);
+          
+          td {
+            padding: 10px; 
+          }
+        }
+      }
+    }
+
+    .steps-data {
+      div.columns {
+        padding: 5px;
+        margin: 0;
+
+        &:first-child {
+          margin-left: 10px;
+        }
+      }
+
+      h6 {
+        border-bottom: 1px solid lighten($body_text_color, 60);
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  #shipping_method{
+    p {
+      label {
+        vertical-align: bottom;
+        float: left; 
+        font-weight: bold;
+        font-size: $base_font_size + 2;
+        margin-right: 40px;
+        padding: 5px;
+        input {
+          display: inline;
+        }
+      }
+    }
+  }
+
+  #payment {
+    p {
+      label {
+        vertical-align: bottom;
+        font-weight: bold;
+        input{
+          display: inline;
+        }
+      }
+    }
+  }
+
+  #payment-methods {
+    p {
+      label {
+        font-weight: normal;
+      }
+    }
+  }
+
+  p[data-hook="use_billing"] {
+    float: right;
+    margin-top: -18px;
+    background-color: $layout_background_color;
+    padding: 5px;
+  }

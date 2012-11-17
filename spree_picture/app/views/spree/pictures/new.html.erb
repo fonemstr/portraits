@@ -1,0 +1,11 @@
+<h1>Upload Picture</h1>
+<p> Upload your picture that you want made into a picutre quilt</p>
+<%= form_for [@line_item, @picture], :html => { :multipart => true } do |f| %>
+      <%= render :partial => 'form', :locals => { :f => f } %>
+    
+      <div class="form-buttons filter-actions actions" data-hook="buttons">
+        <%= button t(:update), 'icon-refresh' %>
+      </div>
+<% end %>
+
+<%= javascript_include_tag 'admin/images/new.js' %>
