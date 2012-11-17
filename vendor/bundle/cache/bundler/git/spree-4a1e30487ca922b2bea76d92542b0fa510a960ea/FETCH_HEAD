@@ -1,12 +1,13 @@
 3e628eb109cf4fe27355461bbe043f91a5728bc2		branch '1-0-stable' of git://github.com/spree/spree
-b3d4a0c4034280b565a3155dd20f45d38fb4c4b1		branch '1-1-stable' of git://github.com/spree/spree
-160f4fdf0cd196166c0f913961c5cf668c205314		branch '1-2-stable' of git://github.com/spree/spree
+ac68aae73319837484a5b81f23d1cb8850cb7f93		branch '1-1-stable' of git://github.com/spree/spree
+0d81ee0a2265797641ce90e120ea4fd8b085fc12		branch '1-2-stable' of git://github.com/spree/spree
 048c8a7eb6e36543bd8f99a30b8051039ba1eb35		branch '2079-refactor-controller-helpers' of git://github.com/spree/spree
 64fe46d98988793c64ff3dece54ea15c84336612		branch 'fix-2191' of git://github.com/spree/spree
+ae7917c4961e3a37f7fbaeb0b4aeb2640fbf02e4		branch 'fix-2218' of git://github.com/spree/spree
 4bc2af3d75a663cbd3bf5f044ce554ef42f05673		branch 'jirafe-v2' of git://github.com/spree/spree
-3c6f5acfff0e87aa2e350d0b005f76721658d6d5		branch 'master' of git://github.com/spree/spree
+0e7ee59970c728c84746b46fbcde807b0694e474		branch 'master' of git://github.com/spree/spree
 449f5707a616288dced44ac211d3a76d8bd5614b		branch 'order_split' of git://github.com/spree/spree
-38e5fa1af8767e8a94875bf24997d668bafcb387		branch 'split_core' of git://github.com/spree/spree
+c526e03973e0548789de75f66a6370e82b70618e		branch 'split_core' of git://github.com/spree/spree
 808b99c8a1975d35c339db4d1162ebb3d29a15be	not-for-merge	tag 'v0.10.0' of git://github.com/spree/spree
 b00d738e6428361186a92055317577fb294d4834	not-for-merge	tag 'v0.10.0.beta' of git://github.com/spree/spree
 e110602ea98033a9a6ed5dcb19b2f77595770b40	not-for-merge	tag 'v0.10.1' of git://github.com/spree/spree
