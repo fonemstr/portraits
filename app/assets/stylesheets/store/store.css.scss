@@ -1,7 +1,7 @@
 @import "store/variables";
 
 body {
-  background-image: url(<%= asset_path 'store/grn_bkg.png' %>);
+  background-image: url(asset_path('store/grn_bkg.png', image));
   background-repeat: repeat-x;
 }
 
@@ -69,12 +69,10 @@ border: 0;
 }
 
 h2,h3,h4 {
-  font-family: Bitter;
   color: #113355;
 }
 
 h1 {
-  font-family: Bitter;
   font-size: 38px;
   color: #900;
 }
@@ -149,9 +147,7 @@ p[data-hook="links"] a {
   margin-top: 60px;
 }
 
-.hero-unit {
-  background-color: white;
-}
+
 
 .alert {
   margin-top: 20px;
