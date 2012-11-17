@@ -1,8 +1,6 @@
 @import "store/variables";
 
 body {
-  padding-top: 60px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif; 
   background-image: url(<%= asset_path 'store/grn_bkg.png' %>);
   background-repeat: repeat-x;
 }
@@ -89,21 +87,9 @@ p {
   text-align: left;
 }
 
-.btn-xlarge {
-  padding: 15px 30px;
-  font-size: 20px;
-  line-height: normal;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-}
 
 .hero-unit {
-  text-align: center;
-  background: url(asset_path('store/grey.png', image));
-  border: #eee 1px solid;
+  background-color: white;
   p {
     margin: 20px 0;
     font-size: 20px;
