@@ -29,7 +29,7 @@ gem 'jquery-rails'
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'less-rails'
-gem 'spree', :github => 'spree/spree'
+gem 'spree', :github => 'fonemstr/spree'
 gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => 'edge'
 
 gem 'spree_picture', :path => 'spree_picture'
