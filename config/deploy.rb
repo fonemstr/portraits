@@ -30,6 +30,7 @@ role :db,  "portraitsinfabric.com", :primary => true # This is where Rails migra
 
 # if you want to clean up old releases on each deploy uncomment this:
 after "deploy:restart", "deploy:cleanup"
+after "deploy:create_symlink", :symlink_products
 
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
@@ -41,6 +42,11 @@ namespace :deploy do
   task :restart, :roles => :app, :except => { :no_release => true } do
     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
   end
+end
+
+desc "Symbolic link product images to shared directory"
+task :symlink_products, :roles => :app do
+    run "ln -nfs #{shared_path}/public/spree #{release_path}/public/spree"
 end
 
 namespace :deploy do
