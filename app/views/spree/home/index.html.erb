@@ -1,3 +1,4 @@
+<% content_for :hero_unit do %>
 <div class="hero-unit">
   <%= image_tag 'store/dog_art.png', :style => 'float: left; margin-right: 20px'%>
   <h1>Your Picture. Quilted Art</h1>
@@ -5,4 +6,18 @@
     <p class='lead'>We turn your favorite picture into a stunning picture quilt.</p>
     
     <p><%= link_to "Order yours Today", "/products/custom-portrait-quilt", :class => 'btn btn-success btn-xlarge' %></p>
+</div>
+<% end %>
+
+<div id="gallery" class="row">
+	<h1>Recent works of Art. Priceless.</h1>
+	<div class="span4">
+		<%= image_tag "store/shepards.png" %>
+	</div>
+	<div class="span4">
+		<%= image_tag "store/black_dog_1.png" %>
+	</div>
+	<div class="span4">
+		<%= image_tag "store/black_dog_2.png" %>
+	</div>
 </div>

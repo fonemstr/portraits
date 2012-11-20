@@ -14,11 +14,16 @@
       </ul>
    </div>
   </div>
-</header>
-<div id="wrapper" class="container">
-  <% if content_for?(:hero_unit) %>
+</header> 
+<% if content_for?(:hero_unit) %> 
+<div id="banner" class="clearfix">
+  <div id="banner-content" class="container">  
     <%= yield :hero_unit %>
-  <% end %>
+  </div>
+</div>
+<% end %>
+<div id="wrapper" class="container">
+
      
   <% if content_for?(:sidebar) %> 
     <div id="content" class="row" data-hook>

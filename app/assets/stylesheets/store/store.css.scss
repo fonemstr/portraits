@@ -74,7 +74,7 @@ h2,h3,h4 {
 
 h1 {
   font-size: 38px;
-  color: #900;
+  color: #113355;
 }
 
 p {
@@ -87,10 +87,11 @@ p {
 
 
 .hero-unit {
-  background-color: white;
+  background-color: transparent;
   p {
     margin: 20px 0;
     font-size: 20px;
+    color: #333;
   }
   h1 {
     color: #113355;
@@ -170,4 +171,22 @@ a.btn-xlarge:hover{
 
 #thumbnails {
   display: none;
+}
+
+header {
+  height: 149px;
+}
+
+#banner {
+  background-color: #DEF7E2;
+  background-image: url(asset_path('store/texture.png',image));
+}
+
+#gallery {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#footer#footer {
+  padding: 0;
 }
