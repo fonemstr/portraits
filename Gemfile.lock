@@ -1,22 +1,6 @@
 GIT
-  remote: git://github.com/fonemstr/spree_gateway.git
-  revision: 5cbb1df32611300f5c27fb83bb0679f4db2d596c
-  specs:
-    spree_gateway (1.0.0)
-      spree_core (~> 1.0)
-
-GIT
-  remote: git://github.com/seyhunak/twitter-bootstrap-rails.git
-  revision: 1a1ce46a2abe7014214584016067850b55614dc7
-  specs:
-    twitter-bootstrap-rails (2.1.6)
-      actionpack (>= 3.1)
-      execjs
-      railties (>= 3.1)
-
-GIT
-  remote: git://github.com/spree/spree.git
-  revision: dd259aab125c29d82ab566fe70a1a73e871aad1f
+  remote: git://github.com/fonemstr/spree.git
+  revision: f8fdf4f8a6ad04b8fb9b31933570fb64cd17c3ac
   specs:
     spree (1.3.0)
       spree_api (= 1.3.0)
@@ -55,6 +39,22 @@ GIT
       spree_core (= 1.3.0)
     spree_sample (1.3.0)
       spree_core (= 1.3.0)
+
+GIT
+  remote: git://github.com/fonemstr/spree_gateway.git
+  revision: 5cbb1df32611300f5c27fb83bb0679f4db2d596c
+  specs:
+    spree_gateway (1.0.0)
+      spree_core (~> 1.0)
+
+GIT
+  remote: git://github.com/seyhunak/twitter-bootstrap-rails.git
+  revision: 1a1ce46a2abe7014214584016067850b55614dc7
+  specs:
+    twitter-bootstrap-rails (2.1.6)
+      actionpack (>= 3.1)
+      execjs
+      railties (>= 3.1)
 
 GIT
   remote: git://github.com/spree/spree_auth_devise.git
