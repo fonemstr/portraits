@@ -1,4 +1,6 @@
 @import "store/variables";
+@import url(//fonts.googleapis.com/css?family=PT+Serif+Caption|Open+Sans);
+
 
 body {
   background-image: url(asset_path('store/grn_bkg.png', image));
@@ -69,10 +71,12 @@ border: 0;
 }
 
 h2,h3,h4 {
+  font-family: 'PT Serif Caption', Helvetica, Arial, sans-serif; 
   color: #113355;
 }
 
 h1 {
+  font-family: 'PT Serif Caption', Helvetica, Arial, sans-serif; 
   font-size: 38px;
   color: #113355;
 }
