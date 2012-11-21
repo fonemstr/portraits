@@ -8,6 +8,7 @@
 //= require jquery_ujs
 
 //= require admin/spree_core
+//= require store/spree_auth
 //= require admin/spree_promo
 
 //= require_tree .

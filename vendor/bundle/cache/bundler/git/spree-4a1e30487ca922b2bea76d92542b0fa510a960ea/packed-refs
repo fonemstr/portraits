@@ -1,22 +1,13 @@
 # pack-refs with: peeled 
-3e628eb109cf4fe27355461bbe043f91a5728bc2 refs/heads/1-0-stable
-91d3e14d42ef7ef79f7ae612bf42336ae5a9e821 refs/heads/1-1-stable
-74a7914903b9d7dac77e0cbd38b1919fb3396254 refs/heads/1-2-stable
-6136465450fd50084ea58e4ae9a1775ba32e632a refs/heads/2071-optional-api-authentication
-c3a248556865f3583c2e09c28e431ebfb0db7fa4 refs/heads/2072-country-states-required
+55925d08bf1fdd7b03fb007606dfb61e2586b5b8 refs/heads/1-0-stable
+e37df7310f0c9e8667fc4d8eb3bdc2703cb02036 refs/heads/1-1-stable
+9a8f32c9109b9b7138362b29338b4dfafb4b165c refs/heads/1-2-stable
 048c8a7eb6e36543bd8f99a30b8051039ba1eb35 refs/heads/2079-refactor-controller-helpers
-93620910d41b937e3769ca039dfe39db2b713d4b refs/heads/admin-redesign
-dde339660e302c41ea0869e44999875c424222ed refs/heads/debugging-api
+64fe46d98988793c64ff3dece54ea15c84336612 refs/heads/fix-2191
+ae7917c4961e3a37f7fbaeb0b4aeb2640fbf02e4 refs/heads/fix-2218
 4bc2af3d75a663cbd3bf5f044ce554ef42f05673 refs/heads/jirafe-v2
-2b831b82b16955a58a8c6f0e5c255c3cc5fc3c65 refs/heads/master
-a0478eb1b59fa465dd41a66f63d61bad06fcfad3 refs/heads/merge-api-to-core
-449f5707a616288dced44ac211d3a76d8bd5614b refs/heads/order_split
-623c83685fd7d7a3c782aec733fcb5f62dd5ee7d refs/heads/rails-3-2-2
-a92e356ca69e85c592e3ff2f9137998c0b37922c refs/heads/rails-3.2.7.rc1
-56df3fd8cab62a637cfed7aa792bf793d65df866 refs/heads/refactor_product_autocomplete
-2e4f7944e5b6f9e42b49dbb1cd129ec991e493f4 refs/heads/split_core
-e71646ca7368acfacf8d53fa41b8ea2012f69501 refs/heads/squashing-migrations
-1d641526cc32f98fb7531240b5657d6ce8354e55 refs/heads/taxon_refactor
+dd259aab125c29d82ab566fe70a1a73e871aad1f refs/heads/master
+6749b40e9eee3b20285cca1dbf321c900abedf9a refs/heads/split_core
 808b99c8a1975d35c339db4d1162ebb3d29a15be refs/tags/v0.10.0
 ^813cb739f63ace32286ced7337ccc72487fd6e1e
 b00d738e6428361186a92055317577fb294d4834 refs/tags/v0.10.0.beta
@@ -123,6 +114,9 @@ c5d14313973aa59a038ac4ffcc7d8e71cfe5a58d refs/tags/v1.1.1
 59399e6f5d29b618cd29ab38f00ba0182b8b8024 refs/tags/v1.1.2
 c762a35824f26ede5c31d266a2d14b11c3b78e54 refs/tags/v1.1.2.rc1
 979ca941f342595bedba05d54f4d8d0d6bed4b05 refs/tags/v1.1.3
+84e2bde97143404bcb5f204fd7e1c62115428a44 refs/tags/v1.1.4
 96925923f8543812967d82afa096487426b72e8d refs/tags/v1.2.0
 2e5ccf81a713d93a2b3c5c22260e8611298efe1c refs/tags/v1.2.0.rc1
 11b196ee9353f40e4c15d3b49fbdb8c74dfd9994 refs/tags/v1.2.0.rc2
+b85fc2c85f017e4a4f706b87e864775dcb459056 refs/tags/v1.2.1
+b8da85915e024afbae1f71d0691602d8a23498ec refs/tags/v1.2.2

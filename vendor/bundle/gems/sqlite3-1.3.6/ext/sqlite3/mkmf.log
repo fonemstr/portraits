@@ -49,7 +49,7 @@ checked program was:
 "/usr/bin/gcc-4.2 -o conftest -I. -I/Users/ddemers/.rbenv/versions/1.8.7-p352/lib/ruby/1.8/i686-darwin11.1.0 -I. -I'/Users/ddemers/.rbenv/versions/1.8.7-p352/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/ddemers/.rbenv/versions/1.8.7-p352/include'  -g -O2 -pipe -fno-common   conftest.c  -L. -L/Users/ddemers/.rbenv/versions/1.8.7-p352/lib -L. -L'/Users/ddemers/.rbenv/versions/1.8.7-p352/lib'     -lsqlite3  -lruby-static -lsqlite3  -ldl -lobjc  "
 Undefined symbols for architecture x86_64:
   "_rb_proc_arity", referenced from:
-      _t in cc3y9wL9.o
+      _t in ccn5grIL.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 checked program was:
@@ -126,7 +126,7 @@ checked program was:
 "/usr/bin/gcc-4.2 -o conftest -I. -I/Users/ddemers/.rbenv/versions/1.8.7-p352/lib/ruby/1.8/i686-darwin11.1.0 -I. -I'/Users/ddemers/.rbenv/versions/1.8.7-p352/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/ddemers/.rbenv/versions/1.8.7-p352/include'  -g -O2 -pipe -fno-common   conftest.c  -L. -L/Users/ddemers/.rbenv/versions/1.8.7-p352/lib -L. -L'/Users/ddemers/.rbenv/versions/1.8.7-p352/lib'     -lsqlite3  -lruby-static -lsqlite3  -ldl -lobjc  "
 Undefined symbols for architecture x86_64:
   "_sqlite3_column_database_name", referenced from:
-      _t in ccOJ0XDl.o
+      _t in cc8sXE17.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 checked program was:
@@ -155,7 +155,7 @@ checked program was:
 "/usr/bin/gcc-4.2 -o conftest -I. -I/Users/ddemers/.rbenv/versions/1.8.7-p352/lib/ruby/1.8/i686-darwin11.1.0 -I. -I'/Users/ddemers/.rbenv/versions/1.8.7-p352/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/ddemers/.rbenv/versions/1.8.7-p352/include'  -g -O2 -pipe -fno-common   conftest.c  -L. -L/Users/ddemers/.rbenv/versions/1.8.7-p352/lib -L. -L'/Users/ddemers/.rbenv/versions/1.8.7-p352/lib'     -lsqlite3  -lruby-static -lsqlite3  -ldl -lobjc  "
 Undefined symbols for architecture x86_64:
   "_sqlite3_enable_load_extension", referenced from:
-      _t in ccdMMS0D.o
+      _t in cc4BZCAV.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 checked program was:
@@ -184,7 +184,7 @@ checked program was:
 "/usr/bin/gcc-4.2 -o conftest -I. -I/Users/ddemers/.rbenv/versions/1.8.7-p352/lib/ruby/1.8/i686-darwin11.1.0 -I. -I'/Users/ddemers/.rbenv/versions/1.8.7-p352/include'  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  -I'/Users/ddemers/.rbenv/versions/1.8.7-p352/include'  -g -O2 -pipe -fno-common   conftest.c  -L. -L/Users/ddemers/.rbenv/versions/1.8.7-p352/lib -L. -L'/Users/ddemers/.rbenv/versions/1.8.7-p352/lib'     -lsqlite3  -lruby-static -lsqlite3  -ldl -lobjc  "
 Undefined symbols for architecture x86_64:
   "_sqlite3_load_extension", referenced from:
-      _t in ccuBtJB7.o
+      _t in ccqVzl6c.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 checked program was:

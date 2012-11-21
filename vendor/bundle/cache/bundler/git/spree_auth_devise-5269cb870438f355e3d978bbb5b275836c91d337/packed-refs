@@ -1,5 +1,0 @@
-# pack-refs with: peeled 
-eeeebdb268e560ac0a981357e659fe0ea0c2155a refs/heads/1-2-stable
-5628ce29248fe135e50a0f66ae413acf90d9ad89 refs/heads/edge
-9d328661a5ce8deab697f56a28f08c377ca7d00b refs/heads/master
-6ba9b11e5f8eef14d8bfc1d66218a1e5ac43455f refs/heads/patch-1

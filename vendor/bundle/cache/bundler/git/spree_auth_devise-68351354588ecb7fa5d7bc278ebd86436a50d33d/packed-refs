@@ -1,4 +1,5 @@
 # pack-refs with: peeled 
-f63106de271dc07bc2498ede1af2f4b15e48bc94 refs/heads/1-2-stable
-a8e52f01bf9b4647a861c8be67e4b482c802f5ef refs/heads/edge
-ecf7626cd463e18142ae704459f3cd49b4d9da30 refs/heads/master
+c9edf0cc8a1140cdb7ef17e74c7d98a0edbe7ace refs/heads/1-2-stable
+423e8e54aa68ee4a4948bc1bf429baeff772c681 refs/heads/edge
+ece3df3e14d45c98a06613e2000b20d326dd51e0 refs/heads/master
+e408d6e1540fc498363d340dd60306d149151ee2 refs/heads/split_core
