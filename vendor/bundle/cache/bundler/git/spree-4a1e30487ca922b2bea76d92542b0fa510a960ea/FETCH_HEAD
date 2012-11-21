@@ -1,13 +1,12 @@
-3e628eb109cf4fe27355461bbe043f91a5728bc2		branch '1-0-stable' of git://github.com/spree/spree
-ac68aae73319837484a5b81f23d1cb8850cb7f93		branch '1-1-stable' of git://github.com/spree/spree
-0d81ee0a2265797641ce90e120ea4fd8b085fc12		branch '1-2-stable' of git://github.com/spree/spree
+55925d08bf1fdd7b03fb007606dfb61e2586b5b8		branch '1-0-stable' of git://github.com/spree/spree
+e37df7310f0c9e8667fc4d8eb3bdc2703cb02036		branch '1-1-stable' of git://github.com/spree/spree
+9a8f32c9109b9b7138362b29338b4dfafb4b165c		branch '1-2-stable' of git://github.com/spree/spree
 048c8a7eb6e36543bd8f99a30b8051039ba1eb35		branch '2079-refactor-controller-helpers' of git://github.com/spree/spree
 64fe46d98988793c64ff3dece54ea15c84336612		branch 'fix-2191' of git://github.com/spree/spree
 ae7917c4961e3a37f7fbaeb0b4aeb2640fbf02e4		branch 'fix-2218' of git://github.com/spree/spree
 4bc2af3d75a663cbd3bf5f044ce554ef42f05673		branch 'jirafe-v2' of git://github.com/spree/spree
-0e7ee59970c728c84746b46fbcde807b0694e474		branch 'master' of git://github.com/spree/spree
-449f5707a616288dced44ac211d3a76d8bd5614b		branch 'order_split' of git://github.com/spree/spree
-c526e03973e0548789de75f66a6370e82b70618e		branch 'split_core' of git://github.com/spree/spree
+dd259aab125c29d82ab566fe70a1a73e871aad1f		branch 'master' of git://github.com/spree/spree
+6749b40e9eee3b20285cca1dbf321c900abedf9a		branch 'split_core' of git://github.com/spree/spree
 808b99c8a1975d35c339db4d1162ebb3d29a15be	not-for-merge	tag 'v0.10.0' of git://github.com/spree/spree
 b00d738e6428361186a92055317577fb294d4834	not-for-merge	tag 'v0.10.0.beta' of git://github.com/spree/spree
 e110602ea98033a9a6ed5dcb19b2f77595770b40	not-for-merge	tag 'v0.10.1' of git://github.com/spree/spree
@@ -86,6 +85,9 @@ c5d14313973aa59a038ac4ffcc7d8e71cfe5a58d	not-for-merge	tag 'v1.1.1' of git://git
 59399e6f5d29b618cd29ab38f00ba0182b8b8024	not-for-merge	tag 'v1.1.2' of git://github.com/spree/spree
 c762a35824f26ede5c31d266a2d14b11c3b78e54	not-for-merge	tag 'v1.1.2.rc1' of git://github.com/spree/spree
 979ca941f342595bedba05d54f4d8d0d6bed4b05	not-for-merge	tag 'v1.1.3' of git://github.com/spree/spree
+84e2bde97143404bcb5f204fd7e1c62115428a44	not-for-merge	tag 'v1.1.4' of git://github.com/spree/spree
 96925923f8543812967d82afa096487426b72e8d	not-for-merge	tag 'v1.2.0' of git://github.com/spree/spree
 2e5ccf81a713d93a2b3c5c22260e8611298efe1c	not-for-merge	tag 'v1.2.0.rc1' of git://github.com/spree/spree
 11b196ee9353f40e4c15d3b49fbdb8c74dfd9994	not-for-merge	tag 'v1.2.0.rc2' of git://github.com/spree/spree
+b85fc2c85f017e4a4f706b87e864775dcb459056	not-for-merge	tag 'v1.2.1' of git://github.com/spree/spree
+b8da85915e024afbae1f71d0691602d8a23498ec	not-for-merge	tag 'v1.2.2' of git://github.com/spree/spree
