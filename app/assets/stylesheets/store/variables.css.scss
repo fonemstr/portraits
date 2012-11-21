@@ -17,12 +17,9 @@ $product_link_text_color:   #BBBBBB;
 $product_price_text_color:  #990000;
 
 /*--------------------------------------*/
-/* Fonts import from remote
-/*--------------------------------------
-@import url(//fonts.googleapis.com/css?family=PT+Serif+Caption|Open+Sans);
-/*--------------------------------------*/
 /* Font families
 /*--------------------------------------*/
+
 $ff_base:       'Open Sans', Helvetica, Arial, sans-serif;
 
 /*--------------------------------------
@@ -47,7 +44,7 @@ $ff_base:       'Open Sans', Helvetica, Arial, sans-serif;
       $product_detail_name_font_size:         24px;
       $product_detail_description_font_size:  12px;
       $product_detail_price_font_size:        20px;
-      $product_detail_title_font_size:        12px;
+      $product_detail_title_font_size:        12px;Open Sans
 /*|------------------------------------
   |- Basic
   |                                  */
