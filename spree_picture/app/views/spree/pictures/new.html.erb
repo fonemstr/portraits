@@ -1,11 +1,12 @@
-<h1>Upload Picture</h1>
-<p> Upload your picture that you want made into a picutre quilt</p>
+<div id="picture-upload">
+<h1>Upload Your Portrait Picture</h1>
+<p class="lead"> Choose the portrait picture on your computer you want made into an art quilt</p>
 <%= form_for [@line_item, @picture], :html => { :multipart => true } do |f| %>
       <%= render :partial => 'form', :locals => { :f => f } %>
-    
-      <div class="form-buttons filter-actions actions" data-hook="buttons">
-        <%= button t(:update), 'icon-refresh' %>
+      <div style="margin-top: 20px;" class="form-buttons filter-actions actions" data-hook="buttons">
+        <button class="icon-refresh btn btn-primary" name="button" type="submit"> Upload Your Portrait Picture</button>
       </div>
 <% end %>
+</div>
 
 <%= javascript_include_tag 'admin/images/new.js' %>
