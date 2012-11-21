@@ -30,7 +30,7 @@ gem 'jquery-rails'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'less-rails'
 #gem 'spree', :github => 'spree/spree' , :branch => 'master'
-gem 'spree', :github => 'fonemstr/spree' , :branch => 'master'
+gem 'spree', :github => 'fonemstr/spree'
 gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => 'edge'
 gem 'spree_gateway', :git => 'git://github.com/fonemstr/spree_gateway.git' # make sure to include after spree
 gem 'spree_static_content', :github => 'spree/spree_static_content'
