@@ -48,8 +48,8 @@
   #checkout-summary {
     text-align: center;
     border: 1px solid lighten($body_text_color, 60);
-    margin-top: 23px;
-    /*margin-left: 0;*/
+    margin-top: 35px;
+    margin-left: 30px;
 
     h3 {
       text-transform: uppercase;
@@ -209,6 +209,10 @@
         font-weight: normal;
       }
     }
+  }
+
+  .progress-steps {
+    margin: 18px 0 0 0;
   }
 
   p[data-hook="use_billing"] {

@@ -4,6 +4,17 @@ Deface::Override.new(:virtual_path => %q{spree/shared/_order_details},
                      :attributes => {:class => 'table'},
                      :disabled => false)
 
+Deface::Override.new(:virtual_path => %q{spree/shared/_order_details},
+                     :name => %q{remove row style from step data},
+                     :remove_from_attributes => %q{div.steps-data},
+                     :attributes => {:class => 'row'},
+                     :disabled => false)
+
+Deface::Override.new(:virtual_path => %q{spree/shared/_order_details},
+                     :name => %q{remove hr},
+                     :remove => %q{hr},
+                     :disabled => false)
+
 Deface::Override.new(:virtual_path => %q{spree/checkout/_confirm},
                      :name => %q{change checkout order details buttons},
                      :replace => %q{[data-hook="buttons"]},

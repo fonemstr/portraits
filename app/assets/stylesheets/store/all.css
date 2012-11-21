@@ -8,5 +8,14 @@
  *= require store/spree_promo
 
  *= require_self
- *= require_tree .
+ *= require store/screen
+ *= require store/bootstrap_and_overrides
+ *= require store/cart
+ *= require store/checkout
+ *= require store/footer
+ *= require store/forms
+ *= require store/products
+ *= require store/steps
+ *= require store/store
+ *= require store/variables
 */
