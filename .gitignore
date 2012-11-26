@@ -16,3 +16,4 @@
 public/assets
 public/assets/**/*
 public/spree
+.DS_Store
