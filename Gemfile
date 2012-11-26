@@ -35,6 +35,7 @@ gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => 'edge'
 gem 'spree_gateway', :git => 'git://github.com/fonemstr/spree_gateway.git' # make sure to include after spree
 gem 'spree_static_content', :github => 'spree/spree_static_content'
 gem 'spree_picture', :path => 'spree_picture'
+gem 'spree_contact_us', :git => 'https://github.com/jdutil/spree_contact_us'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

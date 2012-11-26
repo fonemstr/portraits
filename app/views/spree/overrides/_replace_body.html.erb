@@ -2,13 +2,13 @@
 <header id="header" class="container <%= @body_id || 'default' %>" data-hook="home_header">
   <div class="masthead row">
     <div class='span4'>
-      <%= image_tag 'store/logo_blue.png' %>
+      <%= link_to(image_tag('store/logo_blue.png'), root_path ) %>
     </div>
     <div id="header-menu" class='span8'>
       <ul class="nav nav-pills ">
         <li><%= link_to 'Home', spree.root_path %></li>
         <li><a href="/about">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/contact-us">Contact</a></li>
         <%= render :partial => 'spree/shared/login_bar' %>
         <li id="link-to-cart" data-hook><%= link_to_cart %></li>     
       </ul>
