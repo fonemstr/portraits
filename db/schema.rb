@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121121205437) do
+ActiveRecord::Schema.define(:version => 20121126210348) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -124,6 +124,13 @@ ActiveRecord::Schema.define(:version => 20121121205437) do
     t.string   "gateway_payment_profile_id"
     t.datetime "created_at",                  :null => false
     t.datetime "updated_at",                  :null => false
+  end
+
+  create_table "spree_galleries", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   create_table "spree_gateways", :force => true do |t|

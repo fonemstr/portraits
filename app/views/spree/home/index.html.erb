@@ -10,14 +10,15 @@
 <% end %>
 
 <div id="gallery" class="row">
-	<h1>Recent works of Art. Priceless.</h1>
-	<div class="span4">
-		<%= image_tag "store/shepards.png", :class => "img-circle" %>
-	</div>
-	<div class="span4">
-		<%= image_tag "store/black_dog_1.png",  :class => "img-circle"%>
-	</div>
-	<div class="span4">
-		<%= image_tag "store/black_dog_2.png",  :class => "img-circle" %>
-	</div>
+	<h3>Recently commissioned portraits.</h3>
+	<ul class="thumbnails">
+	<% Spree::Gallery.recent.each do |gallery| -%>
+  <li class="span3">
+    <a href="#" >
+      <%= image_tag(gallery.pictures.first.attachment.url(:product), :class => 'img-polaroid') %>
+    </a>
+  </li>
+  <% end %>
+</ul>
+
 </div>

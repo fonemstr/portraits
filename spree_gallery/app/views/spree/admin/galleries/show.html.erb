@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= @spree_gallery.title %></h1>
+<p style="margin-bottom: 20px"><%= @spree_gallery.description %></p>
+<%= image_tag(@spree_gallery.pictures.first.attachment.url(:product), :class => 'img-polaroid') %>
+
+<div>
+<%= link_to 'Edit', edit_admin_gallery_path(@spree_gallery) %> |
+<%= link_to 'Back', admin_galleries_path %>
+</div>

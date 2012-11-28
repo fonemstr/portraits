@@ -36,6 +36,7 @@ gem 'spree_gateway', :git => 'git://github.com/fonemstr/spree_gateway.git' # mak
 gem 'spree_static_content', :github => 'spree/spree_static_content'
 gem 'spree_picture', :path => 'spree_picture'
 gem 'spree_contact_us', :github => 'jdutil/spree_contact_us'
+gem 'spree_gallery', :path => 'spree_gallery'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

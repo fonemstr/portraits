@@ -1,0 +1,17 @@
+<h1>Listing Gallery Pictures</h1>
+
+<table>
+
+<% @spree_galleries.each do |spree_gallery| %>
+  <tr>
+    <td><%= image_tag(spree_gallery.pictures.first.attachment.url(:small)) %></td>
+    <td><%= link_to 'Show', admin_gallery_path(spree_gallery) %></td>
+    <td><%= link_to 'Edit', edit_admin_gallery_path(spree_gallery) %></td>
+    <td><%= link_to 'Destroy', admin_gallery_path(spree_gallery), :method => :delete, :data => { :confirm => 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Gallery', new_admin_gallery_path %>
