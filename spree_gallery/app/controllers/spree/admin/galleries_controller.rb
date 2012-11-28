@@ -79,7 +79,7 @@ module Spree
         @spree_gallery.destroy
 
         respond_to do |format|
-          format.html { redirect_to spree_galleries_url }
+          format.html { redirect_to admin_galleries_url }
           format.json { head :no_content }
         end
       end
