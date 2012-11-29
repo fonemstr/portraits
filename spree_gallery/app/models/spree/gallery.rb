@@ -4,5 +4,5 @@ class Spree::Gallery < ActiveRecord::Base
 
   accepts_nested_attributes_for :pictures
 
-  scope :recent, order("created_at desc").limit(4)
+  scope :recent, order("created_at desc").limit(8)
 end
