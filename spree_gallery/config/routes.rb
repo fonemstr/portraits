@@ -3,5 +3,7 @@ Spree::Core::Engine.routes.draw do
    	resources :galleries 
   end
 
+  match 'gallery' => 'galleries#index', :as => 'gallery'
+
   # Add your extension routes here
 end
