@@ -61,7 +61,7 @@ a {
 
 hr.soften {
 height: 1px;
-margin: 54px 0;
+margin: 20px 0;
 background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
 background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
 background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
@@ -249,5 +249,43 @@ header {
 
 .thumbnails > li {
   height: 250px;
+}
+
+#process {
+  margin: 20px 0 0 0;
+  text-align: center
+}
+
+.steps{
+  list-style: none;
+  text-align: left;
+  li {
+    float: left;
+  padding-left: 65px;
+  position: relative;
+  width: 210px;
+  }
+  strong {
+   color: #E0E0E0;
+   font-size: 40.8px;
+   font-weight: bold;
+   left: 25px;
+   position: absolute;
+   top: 8px;
+  }
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  h4 {
+    margin: 0;
+  }
+  
+}
+
+.hero-unit {
+  padding: 30px;
 }
 

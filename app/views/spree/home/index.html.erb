@@ -1,14 +1,38 @@
 <% content_for :hero_unit do %>
 <div class="hero-unit">
-  <%= image_tag 'store/dog_art.png', :style => 'float: left; margin-right: 20px'%>
+  <%= image_tag 'store/maggie.png', :style => 'float: left; margin-right: 20px'%>
   <h1>Your Picture. Quilted Art.</h1>
     
     <p class='lead'>We turn your favorite photograph into a stunning art quilt.</p>
     
-    <p><%= link_to "Order yours Today", "/products/custom-portrait-quilt", :class => 'btn btn-success btn-xlarge' %></p>
+    <p><%= link_to "Order One Today", "/products/custom-portrait-quilt", :class => 'btn btn-success btn-xlarge' %></p>
 </div>
 <% end %>
-
+<div id="process" class="row">
+  <h1>What we do.</h1>
+  <%= image_tag 'store/portrait_process.png' %>
+  <ul class="steps">
+  <li>
+    <strong>1</strong>
+    <h4>Your Photograph</h4>
+    <p>Having a clear and in focus photograph is key to getting the best reproduction. The subject will be the focus of the wall hanging.</p>
+  </li><li>
+    <strong>2</strong>
+    <h4>Design & Layout</h4>
+    <p>After the image is chosen for the wall hanging, We then begin to design the layout and choose the colors that would best enhance the piece.</p>
+    </li>
+    <li>
+    <strong>3</strong>
+    <h4>Pieced & Quilted</h4>
+    <p>Each individual piece in the quilt is painstakingly cut out from fabric and sewn on the background. The backing, binding and hanging method is then attached. </p>
+  </li><li>
+    <strong>4</strong>
+    <h4>A Priceless Keepsake</h4>
+    <p>The finished product will be something you will cherish for years to come. We can honestly say that our portrait quilts have brought some of our clients to tears.</p>
+  </li>
+</ul>
+</div>
+<hr class="soften">
 <div id="gallery" class="row">
 	<h3>Recently commissioned portraits.</h3>
 	<ul class="thumbnails">
