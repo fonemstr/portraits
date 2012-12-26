@@ -18,7 +18,7 @@ $ ->
 		total = 0
 		$("[id^='option_types'] :selected").each (i) ->
 			str = $(this).text()
-			price = parseFloat(str.match(/\d+.00/g))
+			price = parseFloat(str.match(/\d+\.\d+/g))
 			if price then total += price
 
 		$('.price.selling').text('$' + total.toFixed(2))
