@@ -1,13 +1,17 @@
-<h1>Art Gallery</h1>
 
-	<% @galleries.each do |gallery| %>
-	<div class="media">
-  <a class="pull-left" href="#">
-     <%= image_tag(gallery.pictures.first.attachment.url(:product), :class => 'img-polaroid') %>
-  </a>
-  <div class="media-body">
-    <h3 class="media-heading"><%= gallery.title %></h3>
-    <%= gallery.description %>
-  </div>
-  </div>
-  <% end %>
+<h1>Art Gallery</h1>
+<ul class="thumbnails">
+ <% @galleries.each do |gallery| %> 
+ <li class="span3">
+    <div class="thumbnail">
+      <%= image_tag(gallery.pictures.first.attachment.url(:product)) %>
+      <div class='caption'>
+        <h3 class="media-heading"><%= gallery.title %></h3>
+        <p><%= gallery.description %></p>
+      </div>
+    </div>
+  </li>
+ <% end %>
+</ul>
+
+  
